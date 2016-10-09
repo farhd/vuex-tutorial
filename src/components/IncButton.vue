@@ -3,12 +3,15 @@
 </template>
 
 <script>
-import eventHub from '../eventHub.js'
+import store from '../store.js'
 
 export default {
   methods: {
     activate () {
-      eventHub.$emit('incCount')
+      store.commit('increment')
+
+      // test the 'vuex strict mode'
+      // store.state.count++
     }
   }
 }
