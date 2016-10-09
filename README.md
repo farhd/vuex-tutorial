@@ -1,3 +1,8 @@
+# Source
+http://skyronic.com/2016/01/03/vuex-basics-tutorial/
+Note: the article linked above uses Vue v1 and Vuex v1, so adjustments have
+been made.
+
 # vuex-tutorial
 
 > A Vue.js project
